@@ -150,9 +150,8 @@ G2 = nx.from_pandas_adjacency(adj2)
 
 ### Hub Genes საპოვნელად, ორივე გრაფისთვის:
 
-1. ამოვიღეთ ყველაზე დიდი ქვე-კომპონენტი
-2. გამოვთვალეთ მისი კვანძებისთვის degree - გამომავალი წიბოების რაოდენობა
-3. დავალაგეთ ამ სიდიდის მიხედვით და ამოვიღეთ 10 ყველაზე მაღალი.
+1. გამოვთვალეთ ყველა კვანძისთვის degree - გამომავალი წიბოების რაოდენობა
+2. დავალაგეთ ამ სიდიდის მიხედვით და ამოვიღეთ 10 ყველაზე მაღალი.
 
 ### შედეგები:
 
@@ -208,12 +207,18 @@ G2 = nx.from_pandas_adjacency(adj2)
 
 ![alt text](image_files/image011.png)
 
-### წყაროები:
-* https://www.nature.com/articles/s41392-020-00288-3
+### ლიტერატურა:
+მიღებული გენების სიმსივნისთვის პოტენციური ბიომარკერობა განხილულია შემდეგ კველევებში:
+
+ჩვენ ეს გენები მივიღეთ წინასწარი ცოდნის გარეშე, რაც საინტერესო შედეგია
+
 * https://www.sciencedirect.com/science/article/abs/pii/S0006291X18323489
+* https://link.springer.com/article/10.1007/s11033-020-05859-9
 * https://www.spandidos-publications.com/10.3892/ijo.2020.5060
 * https://pubmed.ncbi.nlm.nih.gov/33130993/
 * https://journals.sagepub.com/doi/full/10.1177/1533033821992081
+* https://www.annalsofoncology.org/article/S0923-7534(20)38891-8/fulltext
+* https://www.nature.com/articles/s41392-020-00288-3
 
 
 
